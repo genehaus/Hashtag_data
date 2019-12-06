@@ -21,16 +21,14 @@ https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barc
 
 ```
 #!/usr/XXX/bin/zsh
-
 #SBATCH -J CITE-seq-Count
-
 #SBATCH -t 100:00:00
-
 #SBATCH --mem-per-cpu=10240M
-
 #SBATCH --output=output.%J.txt
 /XXX/CITE-seq-Count -R1 /XXX/XXX_S1_L001_R1_001.fastq.gz,/XXX/XXX_S1_L002_R1_001.fastq.gz -R2 /XXX/XXX_S1_L001_R2_001.fastq.gz,/XXX/XXX_S1_L002_R2_001.fastq.gz -t /XXX/tags.csv -cbf 1 -cbl 16 -umif 17 -umil 28 -cells 0 -wl /XXX/barcodes.tsv -o /XXX/XXX_ouput/
 ```
+
+XXX should be full directory or file name 
 
 **References & Good Q&A web source**
 
