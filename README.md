@@ -25,6 +25,8 @@ pip install CITE-seq-Count --user
 
 3. Run 
 
+with Python 3
+
 ```
 #!/usr/XXX/bin/zsh
 #SBATCH -J CITE-seq-Count
@@ -67,7 +69,8 @@ Run parameters:
         Start trim: 0
 ```
 
-So, I checked the unmapped.csv if antibody sequence exists or not, but it wasn't.<br> 
+I checked the unmapped.csv if antibody sequence exists or not, but it wasn't.<br> 
+I think CITE-seq-Count doesn't have issue.<br>
 So, I plan to compare the number of read which have antibody sequence with the output of seurat by taking as an input, 3 files from "umi_count" 
 ```
 zcat *.fastq.gz | grep --color=always antibody_sequence   
