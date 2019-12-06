@@ -32,11 +32,9 @@ https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barc
 /XXX/CITE-seq-Count -R1 /XXX/XXX_S1_L001_R1_001.fastq.gz,/XXX/XXX_S1_L002_R1_001.fastq.gz -R2 /XXX/XXX_S1_L001_R2_001.fastq.gz,/XXX/XXX_S1_L002_R2_001.fastq.gz -t /XXX/tags.csv -cbf 1 -cbl 16 -umif 17 -umil 28 -cells 0 -wl /XXX/barcodes.tsv -o /XXX/XXX_ouput/
 ```
 
-** References & Good Q&A web source **
+**References & Good Q&A web source**
 
 https://github.com/Hoohm/CITE-seq-Count<br>
-
 https://github.com/Hoohm/CITE-seq-Count/issues/82<br>
-
 https://github.com/Hoohm/CITE-seq-Count/issues/62<br>
 
