@@ -1,5 +1,7 @@
 # run_hashtag_data
 
+This information was written based on other's works and website. 
+
 1. Install CITE-seq-Count<br>
 https://github.com/Hoohm/CITE-seq-Count
 
