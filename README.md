@@ -1,8 +1,8 @@
 # Run_hashtag_data
 
 
-	This information was written based on my experiences<br> 
-	and I referred to others' work and webiste.   
+	This information was written based on my experiences 
+	and for this, I referred to others' work and lots of webiste.   
 
 
 1. Install CITE-seq-Count<br>
