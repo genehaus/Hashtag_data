@@ -13,9 +13,13 @@ pip install CITE-seq-Count --user
 
 2-1. tags.csv 
 
-2-2. barcodes.tsv
+2-2. whitelist = barcodes.tsv
 
-https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barcodes/translation/3M-february-2018.txt.gz
+Downalod the file from https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barcodes/translation/3M-february-2018.txt.gz <br>
+The file is same as the barcodes.tsv from raw_feature_bc_matrix	
+
+or Get barcodes.tsv from "filtered_feature_bc_matrix", one of the output from CellRanger 
+
 
 3. Run 
 
