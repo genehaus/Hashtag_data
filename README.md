@@ -1,7 +1,7 @@
 # run_hashtag_data
 
 This information was written based on other's works and website. 
-
+---
 1. Install CITE-seq-Count<br>
 https://github.com/Hoohm/CITE-seq-Count
 
@@ -12,12 +12,12 @@ pip install CITE-seq-Count --user
 
 2. Pre-required data
 
-2.1. tags.csv<br>
-2.2. whitelist = barcodes.tsv
+	1. tags.csv<br>
+	2. whitelist = barcodes.tsv
 
-Download the file from https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barcodes/translation/3M-february-2018.txt.gz <br>
-(This file is same as the barcodes.tsv from raw_feature_bc_matrix)	<br>
-or get barcodes.tsv from "filtered_feature_bc_matrix", one of the output from CellRanger 
+	Download the file from https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barcodes/translation/3M-february-2018.txt.gz <br>
+	(This file is same as the barcodes.tsv from raw_feature_bc_matrix)	<br>
+	or get barcodes.tsv from "filtered_feature_bc_matrix", one of the output from CellRanger 
 
 
 3. Run 
