@@ -76,6 +76,11 @@ So, I plan to compare the number of read which have antibody sequence with the o
 zcat *.fastq.gz | grep --color=always antibody_sequence   
 ```
 
+I downloaded the hashtag data (HTO) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108313 <br>
+and got the hashtag antibody sequences from https://www.biorxiv.org/content/10.1101/237693v1.full.pdf (sample pooling) <br>
+and then run CITE-seq-Count again <br>
+
+
 **References & Good Q&A web source**
 
 https://github.com/Hoohm/CITE-seq-Count<br>
