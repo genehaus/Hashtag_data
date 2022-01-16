@@ -1,4 +1,4 @@
-# Run_hashtag_data
+# Run_hashtag_data by H.J.Kim
 
 
 1. Install CITE-seq-Count<br>
