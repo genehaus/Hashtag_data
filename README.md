@@ -15,7 +15,7 @@ pip install CITE-seq-Count --user
 	2. whitelist = barcodes.tsv
 
 		Download the file from https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barcodes/translation/3M-february-2018.txt.gz <br>
-		(This file is same as the barcodes.tsv from raw_feature_bc_matrix)	<br>
+		( = This file is same as the barcodes.tsv from raw_feature_bc_matrix)	<br>
 		or get barcodes.tsv from "filtered_feature_bc_matrix", one of the output from CellRanger 
 
 
@@ -68,7 +68,7 @@ Run parameters:
 
 5-1. How to solve the issue I 
  
-I checked the unmapped.csv if antibody sequence exists or not, but it wasn't.<br> 
+I checked the unmapped.csv to see if antibody sequences exist or not, but no antibodies were detected.<br> 
 I think CITE-seq-Count doesn't have issue.<br>
 So, I plan to compare the number of read which have antibody sequence with the output of seurat by taking as an input, 3 files from "umi_count" 
 ```
