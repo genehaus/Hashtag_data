@@ -1,4 +1,4 @@
-# Run_hashtag_data by H.J.Kim
+# Run CITE-seq-Count by H.J.Kim
 
 
 1. Install CITE-seq-Count<br>
@@ -14,12 +14,10 @@ pip install CITE-seq-Count --user
 	1. tags.csv<br>
 	2. whitelist = barcodes.tsv
 
-		Download the file from https://github.com/10XGenomics/cellranger/blob/master/lib/python/cellranger/barcodes/translation/3M-february-2018.txt.gz <br>
-		( = This file is same as the barcodes.tsv from raw_feature_bc_matrix)	<br>
-		or get barcodes.tsv from "filtered_feature_bc_matrix", one of the output from CellRanger 
+		Here, the barcodes.tsv means the one from "filtered_feature_bc_matrix", one of the output from CellRanger 
 
 
-3. Run 
+3. Run CITE-seq-Count in SLURM
 
 with Python 3
 
@@ -68,11 +66,9 @@ Run parameters:
 
 5-1. How to solve the issue I 
  
-I checked the unmapped.csv to see if antibody sequences exist or not, but no antibodies were detected.<br> 
-I think CITE-seq-Count doesn't have issue.<br>
-So, I plan to compare the number of read which have antibody sequence with the output of seurat by taking as an input, 3 files from "umi_count" 
+I looked into the fastq files, but no reads including antibodies were detected.<br> 
 ```
-zcat *.fastq.gz | grep --color=always antibody_sequence   
+zcat *.fastq.gz | grep --color=always <antibody_sequence> 
 ```
 
 
@@ -80,7 +76,7 @@ zcat *.fastq.gz | grep --color=always antibody_sequence
 
 I downloaded the hashtag data (HTO) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108313 <br>
 and got the hashtag antibody sequences from https://www.biorxiv.org/content/10.1101/237693v1.full.pdf (sample pooling) <br>
-and then run CITE-seq-Count again <br>
+and then ran CITE-seq-Count again <br>
 
 
 In script 
@@ -122,7 +118,7 @@ Run parameters:
 
 6. Conclusion 
 
-CITE-seq count has not issue<br> 
+CITE-seq count ran ok<br> 
 My fastq file has the issue<br>
 
 
