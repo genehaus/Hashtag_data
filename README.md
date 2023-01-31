@@ -12,6 +12,14 @@ pip install CITE-seq-Count --user
 2. Pre-required data
 
 	1. tags.csv<br>
+
+	```
+	ACCCACCAGTAAGAC,Hashtag_1
+	GGTCGAGAGCATTCA,Hashtag_2
+	CTTGCCGCATGTCAT,Hashtag_3
+	AAAGCATTCTTCACG,Hashtag_4
+	```
+
 	2. whitelist = barcodes.tsv
 
 		Here, the barcodes.tsv means the one from "filtered_feature_bc_matrix", one of the output from CellRanger 
@@ -64,7 +72,7 @@ Run parameters:
 ```
 
 
-5-1. How to solve the issue I 
+5-1. How to solve the issue (I) 
  
 I looked into the fastq files, but no reads including antibodies were detected.<br> 
 ```
@@ -72,7 +80,7 @@ zcat *.fastq.gz | grep --color=always <antibody_sequence>
 ```
 
 
-5-2. How to solve the issue II
+5-2. How to solve the issue (II)
 
 I downloaded the hashtag data (HTO) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108313 <br>
 and got the hashtag antibody sequences from https://www.biorxiv.org/content/10.1101/237693v1.full.pdf (sample pooling) <br>
