@@ -41,7 +41,7 @@ link: https://github.com/Hoohm/CITE-seq-Count
 /XXX/CITE-seq-Count -R1 /XXX/XXX_S1_L001_R1_001.fastq.gz,/XXX/XXX_S1_L002_R1_001.fastq.gz -R2 /XXX/XXX_S1_L001_R2_001.fastq.gz,/XXX/XXX_S1_L002_R2_001.fastq.gz -t /XXX/tags.csv -cbf 1 -cbl 16 -umif 17 -umil 28 -cells 0 -wl /XXX/barcodes.tsv -o /XXX/XXX_ouput/
 ```
 
-XXX should be full directory or file name 
+"XXX" means full directory or file name 
 
 
 <b>4. Issue</b>
