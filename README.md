@@ -9,6 +9,7 @@ pip install CITE-seq-Count --user
 ```
 
 
+
 <b>2. Pre-required data</b>
 
 1. tags.csv
@@ -74,6 +75,7 @@ Run parameters:
         Tags max errors: 2
         Start trim: 0
 ```
+
 
 
 <b>5-1. How to solve the issue (I)</b> 
