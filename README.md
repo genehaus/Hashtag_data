@@ -12,6 +12,7 @@ pip install CITE-seq-Count --user
 2. Pre-required data
 
 	1. tags.csv<br>
+	(for example) <br>
 
 	```
 	ACCCACCAGTAAGAC,Hashtag_1
@@ -25,9 +26,7 @@ pip install CITE-seq-Count --user
 		Here, the barcodes.tsv means the one from "filtered_feature_bc_matrix", one of the output from CellRanger 
 
 
-3. Run CITE-seq-Count in SLURM
-
-with Python 3
+3. Run CITE-seq-Count in SLURM, Python 3.0
 
 ```
 #!/usr/XXX/bin/zsh
