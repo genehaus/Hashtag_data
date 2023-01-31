@@ -4,9 +4,9 @@
 <b>1. Install CITE-seq-Count</b><br>
 link: https://github.com/Hoohm/CITE-seq-Count
 
-	```
-	pip install CITE-seq-Count --user 
-	```
+```
+pip install CITE-seq-Count --user 
+```
 
 
 <b>2. Pre-required data</b>
