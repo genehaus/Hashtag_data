@@ -9,7 +9,7 @@ pip install CITE-seq-Count --user
 ```
 
 
-2. Pre-required data
+<b>2. Pre-required data</b>
 
 	1. tags.csv<br>
 	(for example) <br>
@@ -26,7 +26,7 @@ pip install CITE-seq-Count --user
 		Here, the barcodes.tsv means the one from "filtered_feature_bc_matrix", one of the output from CellRanger 
 
 
-3. Run CITE-seq-Count in SLURM, Python 3.0
+<b>3. Run CITE-seq-Count with SLURM, Python 3.0 </b>
 
 ```
 #!/usr/XXX/bin/zsh
@@ -39,7 +39,8 @@ pip install CITE-seq-Count --user
 
 XXX should be full directory or file name 
 
-4. Issue
+
+<b>4. Issue</b>
 
 ```
 Date: 2019-12-06
@@ -71,7 +72,7 @@ Run parameters:
 ```
 
 
-5-1. How to solve the issue (I) 
+<b>5-1. How to solve the issue (I)</b> 
  
 I looked into the fastq files, but no reads including antibodies were detected.<br> 
 ```
@@ -79,7 +80,7 @@ zcat *.fastq.gz | grep --color=always <antibody_sequence>
 ```
 
 
-5-2. How to solve the issue (II)
+<b>5-2. How to solve the issue (II)</b>
 
 I downloaded the hashtag data (HTO) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108313 <br>
 and got the hashtag antibody sequences from https://www.biorxiv.org/content/10.1101/237693v1.full.pdf (sample pooling) <br>
@@ -91,7 +92,7 @@ In script
 /XXX/XXX/.pyenv/shims/CITE-seq-Count -R1 /XXX/XXX/Seurat_hashtag_HTO/SRR8281307_1.fastq.gz -R2 /XXX/XXX/Seurat_hashtag_HTO/SRR8281307_2.fastq.gz -t /XXX/XXX/Seurat_hashtag_HTO/tags.csv -cbf 1 -cbl 16 -umif 17 -umil 29 -cells 0 -wl /XXX/XXX/Seurat_hashtag_HTO/barcodes.tsv -o /XXX/XXX/Seurat_hashtag_HTO/
 ```
 
-5-2. Ideal output
+<b>5-2. Ideal output</b>
 
 
 ```
