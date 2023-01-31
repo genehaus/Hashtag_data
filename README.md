@@ -12,8 +12,7 @@ pip install CITE-seq-Count --user
 <b>2. Pre-required data</b>
 
 1. tags.csv
-
-(for example) 
+   (for example) 
 
 	```
 	ACCCACCAGTAAGAC,Hashtag_1
@@ -21,6 +20,7 @@ pip install CITE-seq-Count --user
 	CTTGCCGCATGTCAT,Hashtag_3
 	AAAGCATTCTTCACG,Hashtag_4
 	```
+
 
 2. whitelist = barcodes.tsv
 	
