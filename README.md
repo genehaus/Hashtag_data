@@ -11,8 +11,10 @@ pip install CITE-seq-Count --user
 
 <b>2. Pre-required data</b>
 
-	1. tags.csv<br>
-	(for example) <br>
+
+	1. tags.csv
+
+	(for example) 
 
 	```
 	ACCCACCAGTAAGAC,Hashtag_1
