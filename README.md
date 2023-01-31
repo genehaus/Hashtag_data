@@ -1,7 +1,7 @@
 # Run CITE-seq-Count by H.J.Kim
 
 
-###1. Install CITE-seq-Count<br>
+<b>1. Install CITE-seq-Count</b><br>
 https://github.com/Hoohm/CITE-seq-Count
 
 ```
