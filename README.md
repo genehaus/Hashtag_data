@@ -1,7 +1,7 @@
 # Run CITE-seq-Count by H.J.Kim
 
 
-1. Install CITE-seq-Count<br>
+###1. Install CITE-seq-Count<br>
 https://github.com/Hoohm/CITE-seq-Count
 
 ```
@@ -91,7 +91,7 @@ In script
 /XXX/XXX/.pyenv/shims/CITE-seq-Count -R1 /XXX/XXX/Seurat_hashtag_HTO/SRR8281307_1.fastq.gz -R2 /XXX/XXX/Seurat_hashtag_HTO/SRR8281307_2.fastq.gz -t /XXX/XXX/Seurat_hashtag_HTO/tags.csv -cbf 1 -cbl 16 -umif 17 -umil 29 -cells 0 -wl /XXX/XXX/Seurat_hashtag_HTO/barcodes.tsv -o /XXX/XXX/Seurat_hashtag_HTO/
 ```
 
-In output
+5-2. Ideal output
 
 
 ```
